@@ -1,0 +1,17 @@
+.arcdata{ background:#000; width: 400px; font-family: "microsoft yahei"; font-size: 14px; color: #fff; padding: 10px; margin-bottom: 30px; transition: all 0.4s;}
+.arcdata_header{ text-align: center;}
+.arcdata_header:after,
+.arcdata_week:after,
+.arcdata_calendar:after{ content: ''; display: block; height: 0; clear: both;}
+.arcdata_header p{ display: inline-block; padding: 0 10px; cursor:pointer;}
+.arcdata_header .arcdata_previous,
+.arcdata_header .arcdata_next{ font-family: 宋体; font-weight: 700; font-size: 20px; color: #fff; text-decoration: none;}
+.arcdata_header .arcdata_previous:before{content: '<';}
+.arcdata_header .arcdata_next:before{content: '>'; }
+.arcdata_header .arcdata_title{ font-size: 16px;}
+.arcdata ul,.arcdata li{ margin: 0; padding: 0; list-style: none;}
+.arcdata_calendar{ transition: all 0.4s;}
+.arcdata_week li,
+.arcdata_calendar li{ width: 14.2857%; float: left; text-align: center; padding: 5px 0; line-height: 30px; }
+.arcdata_week li{ text-transform: uppercase;}
+.arcdata_calendar li.active span{ background: #fff; color: #000; width: 30px; height: 30px; display: inline-block; border-radius: 15px;}
